@@ -1,0 +1,34 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    padding:.8em;
+}
+li a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color:black;
+    font-family:'Titillium Web', sans-serif;
+}
+li a:hover{
+    color:#EEB422;
+}
+.primeiro a:hover{
+    color:black;
+}
+.primeiro{
+    background-color:#EEB422;
+    margin-top:1em;
+    border-radius:5%;
+}
+.background{
+    background-image: url(vetorizada.jpg) ;
+	background-repeat: no-repeat;
+   	background-size: cover;
+    padding:7em;
+    height: 100%;
+   
+}
