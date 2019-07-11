@@ -46,6 +46,7 @@ h1{
     font-size: 1.5em;
     text-align: center;
     margin: .5em;
+    font-weight: bold;
 }
 p{
     line-height: 1.5em;
