@@ -25,6 +25,9 @@ li a:hover{
 .primeiro a:hover{
     color:black;
 }
+.primeiro:hover{
+    background-color: #00008B;
+}
 .primeiro{
     background-color:#EEB422;
     margin-top:1em;
@@ -51,13 +54,29 @@ h1{
 p{
     line-height: 1.5em;
     font-family:'Russo One', sans-serif;
+    font-size: .9em;
 }
 .descrição{
-    background-color:#27408B;
+    background-color:#4682B4;
     padding-top: .4em;
     width: 100%;
 }
 .primeira-imagem{
+    width: 100%;
+}
+.modo-1{
+    background-color:#FFA54F;
+    padding-top:.4em;
+}
+.modo-2{
+    background-color:#ADD8E6;
+    padding-top: .4em;
+}
+.modo-3{
+    background-color: #8B0000;
+    padding-top:.4em;
+}
+.modo-competitivo{
     width: 100%;
 }
 /*------FOOTER----------*/
