@@ -83,6 +83,9 @@ p{
     background-color: gray;
     padding-top: .4em;
 }
+.csource{
+    width: 100%;
+}
 /*------FOOTER----------*/
 .rodapé ul{
     display: flex;
