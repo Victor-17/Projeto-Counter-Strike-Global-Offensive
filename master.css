@@ -79,6 +79,10 @@ p{
 .modo-competitivo{
     width: 100%;
 }
+.cs-source{
+    background-color: gray;
+    padding-top: .4em;
+}
 /*------FOOTER----------*/
 .rodapé ul{
     display: flex;
