@@ -60,6 +60,8 @@ p{
     background-color:#4682B4;
     padding-top: .4em;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .primeira-imagem{
     width: 100%;
@@ -111,4 +113,20 @@ footer{
 iframe{
     width: 100%;
     height: 13em;
+}
+/*-------Responsividade-------*/
+@media screen and (min-width:700px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 2em;  
+    }
+    .grid p{
+        text-align: center;
+        margin: 0 .4em;
+        display: flex;
+        justify-content: center;
+        height: 46vh;
+        align-items: center;
+    }
 }
