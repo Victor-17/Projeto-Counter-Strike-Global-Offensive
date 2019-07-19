@@ -1,11 +1,21 @@
 /*---------INÍCIO MENU--------------*/
-.menu{
+.topo{
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
     width:100%;
 }
-ul img{
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 1em;
+}
+.menu li{
+    width: 6em;
+    text-align: center;
+}
+a img{
     width: 6em;
     margin-top:.5em;
 }
@@ -19,36 +29,100 @@ li a{
     color:black;
     font-family:'Russo One', sans-serif;;
 }
-li a:hover{
-    color:#EEB422;
-}
 .primeiro a:hover{
     color:black;
 }
 .primeiro:hover{
-    background-color: #00008B;
+    background-color: #0000CD;
 }
 .primeiro{
     background-color:#EEB422;
     margin-top:1em;
     border-radius:5%;
 }
+li a:hover{
+    color:#EEB422;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+}
+.slide{
+    width: 100%;
+    height: 37vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: 1px solid #000;
+}
+
+.slide img{
+    width: 100%;
+    height: 37vh;
+}
+
+.foto{
+    position: absolute;
+    opacity: 0;
+    -webkit-animation-name: animacao;
+            animation-name: animacao;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animacao{
+    25%{
+        opacity: 1;
+        -webkit-transform: scale(1.1,1.1);
+                transform: scale(1.1,1.1);
+    }
+
+    50%{
+        opacity:0 ;
+    }
+}
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        -webkit-transform: scale(1.1,1.1);
+                transform: scale(1.1,1.1);
+    }
+
+    50%{
+        opacity:0 ;
+    }
+}
+
+.foto:nth-child(1){
+
+}
+
+.foto:nth-child(2){
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.foto:nth-child(3){
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+.foto:nth-child(4){
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
 /*---------------FIM DO MENU----------------------*/
 
 /*--------------CONTAINER GERAL-------------------*/
-.background{
-    background-image: url(vetorizada.jpg) ;
-	background-repeat: no-repeat;
-   	background-size: cover;
-    padding:7em;
-    height: 100%;
-    margin-bottom: 0;
-}
 h1{
     font-family:'Special Elite', cursive;
     font-size: 1.5em;
     text-align: center;
-    margin: .5em;
+    padding: .5em;
     font-weight: bold;
 }
 p{
@@ -62,6 +136,7 @@ p{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin:0;
 }
 .primeira-imagem{
     width: 100%;
@@ -94,6 +169,7 @@ p{
     flex-direction: row;
     justify-content: center;
 }
+
 #icon{
     font-size: 2em;
 }
@@ -108,7 +184,7 @@ footer{
 .video{
     background-color: #7FFF00;
     padding-top: .4em;
-    padding-bottom: .1em;
+    padding-bottom: .5em;
 }
 iframe{
     width: 100%;
@@ -128,5 +204,100 @@ iframe{
         justify-content: center;
         height: 46vh;
         align-items: center;
+    }
+    .topo{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2em 0;
+        
+    }
+    .menu ul{
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        margin-right: 2em;
+    }
+    a img{
+        margin-left: 4em;
+    }
+    .slide{
+        height: 120vh;
+        margin-top: 10px;
+    }
+    .foto{
+        width: 100%;
+        height: 100%;
+    }
+    .slide{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 0;
+        border: 1px solid #000;
+    }
+    
+    .slide img{
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .foto{
+        position: absolute;
+        opacity: 0;
+        -webkit-animation-name: animacao;
+                animation-name: animacao;
+        -webkit-animation-duration: 20s;
+                animation-duration: 20s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+    }
+    
+    @-webkit-keyframes animacao{
+        25%{
+            opacity: 1;
+            -webkit-transform: scale(1.1,1.1);
+                    transform: scale(1.1,1.1);
+        }
+    
+        50%{
+            opacity:0 ;
+        }
+    }
+    
+    @keyframes animacao{
+        25%{
+            opacity: 1;
+            -webkit-transform: scale(1.1,1.1);
+                    transform: scale(1.1,1.1);
+        }
+    
+        50%{
+            opacity:0 ;
+        }
+    }
+    
+    .foto:nth-child(1){
+    
+    }
+    
+    .foto:nth-child(2){
+        -webkit-animation-delay: 5s;
+                animation-delay: 5s;
+    }
+    
+    .foto:nth-child(3){
+        -webkit-animation-delay: 10s;
+                animation-delay: 10s;
+    }
+    
+    .foto:nth-child(4){
+        -webkit-animation-delay: 15s;
+                animation-delay: 15s;
+    }
+    iframe{
+        width: 100%;
+        height: 30em;
     }
 }
