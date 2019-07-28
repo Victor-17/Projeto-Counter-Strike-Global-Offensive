@@ -1,0 +1,34 @@
+body{
+    background-image:  linear-gradient(45deg, rgba(0, 0, 0, .50) 30%, transparent),url(camuflagem1.png);
+    background-attachment: fixed;
+    width: 100%;
+
+
+}
+h1{
+    text-align: center;
+    color:white;
+}
+.armas{
+    width: 100%;
+    margin-top: 5em;
+}
+.usp, .fiven, .p250, .xm, .mp5, .ump, .mp7, .ak, .galil, .m4a4, .m4a1, .aug, .sg, .ssg, .awp{
+    width: 90%;
+    transition: transform 1s;
+    filter:blur(2px);
+    transition: filter 1.3s;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.usp:hover, .fiven:hover, .p250:hover, .xm:hover, .mp5:hover, .ump:hover, .mp7:hover, .ak:hover, .galil:hover, .m4a4:hover, .m4a1:hover, .aug:hover, .sg:hover, .ssg:hover, .awp:hover{
+    transform: scale(1.1);
+    filter: blur(0px);
+}  
+    
