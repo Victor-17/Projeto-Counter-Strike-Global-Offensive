@@ -43,4 +43,25 @@ nav{
     transform: scale(1.1);
     filter: blur(0px);
 }  
-    
+
+.armas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(15, 1fr);
+}
+
+@media all and (min-width: 800px){
+    .armas{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+@media all and (min-width: 1200px){
+    .armas{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .logo{
+        margin-left: 180px;
+    }
+}
