@@ -2,8 +2,6 @@ body{
     background-image:  linear-gradient(45deg, rgba(0, 0, 0, .50) 30%, transparent),url(img/camuflagem1.png);
     background-attachment: fixed;
     width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 .logo{
@@ -18,8 +16,7 @@ body{
 .logo:hover{
     opacity: 1;
 }
->>>>>>> 4c92aac47a77e29a365b624440f874968475044f
-}
+
 h1{
     text-align: center;
     color:white;
@@ -33,6 +30,7 @@ h1{
     transition: transform 1s;
     filter:blur(2px);
     transition: filter 1.3s;
+    
 }
 nav{
     display: flex;
@@ -55,14 +53,17 @@ nav{
 
 @media all and (min-width: 800px){
     .armas{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .logo{
+        margin-left: 180px;
     }
 }
 @media all and (min-width: 1200px){
     .armas{
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
     .logo{
         margin-left: 180px;

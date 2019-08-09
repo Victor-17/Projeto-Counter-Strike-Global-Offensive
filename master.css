@@ -34,7 +34,7 @@ li a{
     color:black;
 }
 .primeiro:hover{
-    background-color: #0000CD;
+    background-color: #1E90FF;
 }
 .primeiro{
     background-color:#EEB422;
@@ -122,7 +122,7 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #EEEE00;
+    background-color: #00BFFF;
     padding-bottom: 2em;
 }
 .formulário{
@@ -138,7 +138,7 @@ li a:hover{
     padding: .6em;
 }
 #btn:active{
-    color: 	#CD1076;
+    color: 	#0000CD;
 }
 #msg{
     height: 17vh;
@@ -160,7 +160,7 @@ p{
     font-size: .9em;
 }
 .descrição{
-    background-color:#FFA54F;
+    background-color:#49403F;
     padding-top: .4em;
     width: 100%;
     display: flex;
@@ -171,22 +171,22 @@ p{
     width: 100%;
 }
 .modo-1{
-    background-color: #4682B4;
+    background-color: #D2163B;
     padding-top:.4em;
 }
 .modo-2{
-    background-color:#7FFF00;
+    background-color:#868EA2;
     padding-top: .4em;
 }
 .modo-3{
-    background-color: #8B0000;
+    background-color: #DCC9AD;
     padding-top:.4em;
 }
 .modo-competitivo{
     width: 100%;
 }
 .cs-source{
-    background-color: gray;
+    background-color: #9C947A;
     padding-top: .4em;
 }
 .csource{
@@ -211,9 +211,10 @@ footer{
 }
 /*-----------------------*/
 .video{
-    background-color: #ADD8E6;
+    background-color: #C24805;
     padding-top: .4em;
-    padding-bottom: .5em;
+    padding-bottom: 2em;
+
 }
 iframe{
     width: 100%;
