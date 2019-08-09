@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     width:100%;
+
 }
 .menu ul{
     display: flex;
@@ -115,6 +116,34 @@ li a:hover{
     -webkit-animation-delay: 15s;
             animation-delay: 15s;
 }
+/*---------Formulário-----------*/
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEE00;
+    padding-bottom: 2em;
+}
+.formulário{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.formulário input,textarea{
+    font-family:'Russo One', sans-serif;
+    margin: .5em;
+}
+.formulário input{
+    padding: .6em;
+}
+#btn:active{
+    color: 	#CD1076;
+}
+#msg{
+    height: 17vh;
+}
+/*---------------Fim do Formulário----------------*/
 /*---------------FIM DO MENU----------------------*/
 
 /*--------------CONTAINER GERAL-------------------*/
@@ -131,7 +160,7 @@ p{
     font-size: .9em;
 }
 .descrição{
-    background-color:#4682B4;
+    background-color:#FFA54F;
     padding-top: .4em;
     width: 100%;
     display: flex;
@@ -142,11 +171,11 @@ p{
     width: 100%;
 }
 .modo-1{
-    background-color:#FFA54F;
+    background-color: #4682B4;
     padding-top:.4em;
 }
 .modo-2{
-    background-color:#ADD8E6;
+    background-color:#7FFF00;
     padding-top: .4em;
 }
 .modo-3{
@@ -182,7 +211,7 @@ footer{
 }
 /*-----------------------*/
 .video{
-    background-color: #7FFF00;
+    background-color: #ADD8E6;
     padding-top: .4em;
     padding-bottom: .5em;
 }
@@ -300,5 +329,10 @@ iframe{
         width: 100%;
         height: 30em;
     }
-    
+    .formulário{
+        width: 30%;
+    }
+    #msg{
+        height: 27vh;
+    }
 }
