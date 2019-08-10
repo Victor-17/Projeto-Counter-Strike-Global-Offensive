@@ -1,0 +1,50 @@
+body{
+    background-image:  linear-gradient(45deg, rgba(0, 0, 0, .50) 30%, transparent),url(img/camuflagem1.png);
+}
+h1{
+    text-align:center;
+    color: white;
+    margin:2em;
+}
+img{                            
+    border: 5px solid #ffffff;
+    width: 90%;
+}
+.mapas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+}
+.mapa{
+    filter: blur(2px);
+    transition: filter 1.3s;
+    transition: transform 1s;
+}
+.mapa:hover{
+    filter:blur(0px);
+    transform: scale(1.1);
+}
+@media screen and (min-width:700px){
+    .mapas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:1220px){
+    .mapas{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img{                            
+        border: 5px solid #ffffff;
+        width: 70%;
+    }
+}
