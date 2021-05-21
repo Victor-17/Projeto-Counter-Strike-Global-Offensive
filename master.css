@@ -136,6 +136,7 @@ li a:hover{
 }
 .formulário input{
     padding: .6em;
+    width: 33em;
 }
 #btn:active{
     color: 	#0000CD;
@@ -222,6 +223,9 @@ iframe{
 }
 /*-------Responsividade-------*/
 @media screen and (min-width:700px){
+    body{
+        width: 99.8%;
+    }
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
