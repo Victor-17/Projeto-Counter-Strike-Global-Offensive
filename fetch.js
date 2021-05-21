@@ -32,6 +32,8 @@ function loadCepInfo(cep) {
         numberField.focus()
         cleanCepError()
       }
+    })
+    .catch(error => {
       showCepError()
     })
 }
